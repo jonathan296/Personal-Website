@@ -58,6 +58,8 @@ body{
     margin-right: 0vw;
     margin-bottom: 35px;
     border-radius: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
     
 }
 .container .content h1{
