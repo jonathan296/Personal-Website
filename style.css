@@ -6,6 +6,7 @@
 
 body{
     background: rgb(208, 169, 216);
+    font-family: 'Roboto', sans-serif;
 }
 .container .sidebar{
     color: white;
@@ -14,13 +15,23 @@ body{
     left: 20px;
     top: 20px;
     bottom: 20px;
-   
+    
     background: rgb(139, 16, 163);
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-   
     padding-top: 45px;
     border-radius: 12px;
     
+}
+.container .sidebar a{
+    text-decoration: none;
+}
+.container .sidebar a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+.container .sidebar a:hover{
+    text-decoration: none;
+    color: rgb(226, 226, 226);
 }
 .container .sidebar h1{
     padding-bottom: 40px;
@@ -47,6 +58,7 @@ body{
     margin-right: 0vw;
     margin-bottom: 35px;
     border-radius: 12px;
+    
 }
 .container .content h1{
     padding-bottom: 30px;
